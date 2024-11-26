@@ -4,7 +4,8 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Cuidado Personal</title>
-		<link rel="stylesheet" href="styles.css"
+		<link rel="stylesheet" href="styles.css">
+		<link rel="icon" type="image/x-icon" href="assets/logo.jpg">
 	</head>
 
 	<body>
@@ -139,7 +140,7 @@
 			<div class="section p-3">
 				<h2>Suscríbete a nuestro boletín semanal</h2>
 				<div class="form-container">
-					<form action="" method="POST">
+					<form method="POST">
 						<div class="mb-3">
 							<label for="nombre" class="form-label">Nombre</label>
 							<input type="text" class="form-control" id="nombre"></input>
@@ -151,7 +152,7 @@
 						</div>
 
 						<div class="col-auto">
-							<button type="submit" class="btn btn-primary mb-3">Suscribirse</button>
+							<button type="submit" onclick="successAlert()" class="btn btn-primary mb-3">Suscribirse</button>
 						</div>
 					</form>
 				</div>
@@ -165,5 +166,6 @@
 		</footer>
 
 		<script src="js/bootstrap.bundle.min.js"></script>
+		<script src="js/scripts.js"></script>
 	</body>
 </html>
